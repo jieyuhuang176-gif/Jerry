@@ -13,7 +13,7 @@
 ## 安装方式
 
 ```bash
-npx skills add github:your-username/super-v-theme-activity-planner
+npx skills add github:your-username/theme-activity-planner
 ```
 
 ## 使用方法
@@ -31,7 +31,7 @@ npx skills add github:your-username/super-v-theme-activity-planner
 ### 调用示例
 
 ```bash
-skills run super-v-theme-activity-planner \
+skills run theme-activity-planner \
   --活动月份 "2月" \
   --活动开始时间 "2026年2月9日" \
   --活动结束时间 "2026年2月23日" \
