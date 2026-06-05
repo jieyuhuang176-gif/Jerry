@@ -1,5 +1,5 @@
 {
-  "name": "super-v-theme-activity-planner",
+  "name": "theme-activity-planner",
   "version": "1.4.0",
   "description": "超V主题活动策划Skill - 专为45-70岁中老年用户设计的活动方案生成器",
   "main": "skill.js",
