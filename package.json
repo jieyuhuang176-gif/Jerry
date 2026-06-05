@@ -1,0 +1,55 @@
+{
+  "name": "super-v-theme-activity-planner",
+  "version": "1.4.0",
+  "description": "超V主题活动策划Skill - 专为45-70岁中老年用户设计的活动方案生成器",
+  "main": "skill.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "活动策划",
+    "中老年",
+    "超V用户",
+    "主题活动",
+    "运营"
+  ],
+  "author": "Skill Creator",
+  "license": "MIT",
+  "skill": {
+    "name": "超V主题活动策划",
+    "description": "为45-70岁超V核心用户策划温暖有情感共鸣的主题活动",
+    "inputVariables": [
+      {
+        "name": "活动月份",
+        "description": "活动所在月份（1-12月）",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "活动开始时间",
+        "description": "活动开始日期，格式：YYYY年MM月DD日",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "活动结束时间",
+        "description": "活动结束日期，格式：YYYY年MM月DD日",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "目标人群",
+        "description": "活动面向人群描述，如：45-70岁超V核心用户",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "关联课程",
+        "description": "需要引流的课程名称",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputFormat": "markdown"
+  }
+}
